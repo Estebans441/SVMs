@@ -81,7 +81,7 @@ plt.show()
 print("----------")
 print("RBF")
 print("----------")
-# Training the SVM model with linear kernel
+# Training the SVM model with RBF kernel
 from sklearn.svm import SVC
 
 classifier = SVC(kernel='rbf', random_state=0)
@@ -139,7 +139,7 @@ plt.show()
 print("----------")
 print("Poly")
 print("----------")
-# Training the SVM model with linear kernel
+# Training the SVM model with Poly kernel
 from sklearn.svm import SVC
 
 classifier = SVC(kernel='poly', random_state=0)
